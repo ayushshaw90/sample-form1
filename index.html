@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MICROCHIP-login</title>
+  <link rel="stylesheet" href="./output.css">
+  <link rel="shortcut icon" href="./assets/right-arrow.png" type="image/x-icon">
+</head>
+
+<body class="bg-blue-500">
+  <div class="h-screen flex">
+    <div class="flex lg:w-pc mx-auto h-fit my-auto border-4 border-white md:rounded-3xl bg-white w-fit rounded-lg ">
+      <div class="w-full md:w-3/5 bg-white p-4 md:p-20 rounded-l-2xl h-fit my-auto">
+        <h1 class="text-2xl md:text-3xl font-bold text-center md:text-left">Welcome To Microchip</h1>
+        <br>
+        <h2 class="text-gray-500">Welcome back, Please Login to your Account</h2>
+
+        <form action="#">
+          <div class="py-2">
+            <label for="email" class="block text-gray-400 text-sm pb-2">
+              Email
+            </label>
+            <input type="email" id="email" name="email" class="border-2 rounded border-gray-400 text-xl p-1 w-full">
+          </div>
+          <div class="py-2">
+            <label for="passwd" class="block text-gray-400 text-sm pb-2">Password</label>
+            <input type="password" name="password" id="passwd"
+              class="border-2 rounded border-gray-400 text-xl p-1 w-full">
+          </div>
+          <br>
+          <h3 class="text-sky-500 text-right hover:text-sky-600">
+            <a href="/">Forgot Password</a>
+          </h3>
+          <br>
+          <div class="flex justify-center md:justify-start">
+            <input type="submit" value="Login" class="cursor-pointer px-8 py-2 mr-4 bg-sky-500 text-white rounded-lg w-36">
+            <input type="button" value="Sign Up"
+              class="cursor-pointer px-8 py-2 ml-4 border-2 border-sky-500 rounded-lg text-sky-500 w-36">
+          </div>
+        </form>
+        <div>
+          <ul class="flex text-sky-500 mt-8">
+            <li class="mr-4 hover:underline underline-offset-4 cursor-pointer">Terms</li>
+            <li class="mr-4 hover:underline underline-offset-4 cursor-pointer">Plans</li>
+            <li class="mr-4 hover:underline underline-offset-4 cursor-pointer">Contact Us</li>
+          </ul>
+        </div>
+      </div>
+      <div class="bg-[url('./assets/back.jpg')] w-2/5 px-8 py-20 rounded-r-3xl hidden md:block">
+        <div>
+          <div class="text-white flex w-fit mx-auto">
+            <img src="./assets/right-arrow.png" alt="" class="w-10">
+            <h1 class="my-auto text-3xl">MICROCHIP</h1>
+          </div>
+          <h2 class="text-white text-center">
+            Discover Amazing Microchip with great build tools
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
